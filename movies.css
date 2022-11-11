@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* DANIEL GIL */
+
+.mainContainer {
+	width: 940px;
+	height: 1000px;
+	margin: auto;
+	
+	overflow: hidden;
+	border: solid;
+    border-color: lightgrey;
+	border-radius: 20px;
+    background-color: rgb(238,238,238);
+}
+
+.movieInfo{
+	width: 250px;
+	float: right;
+	height: 600px;
+	background-color: RGB(143, 188, 143);
+	
+}
+
+.movieInfo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.movieInfo dd {
+	padding-bottom: 10px;
+}
+
+.movieInfo dt{
+	font-weight: bold;
+	padding-left: 6px;
+}
+
+.reviewPerson {
+	padding-bottom: 10px;
+}
+
+.reviewText {
+	font-size: .8em;
+    background-color: white;
+    font-weight: bold;
+    
+    border: solid;
+    border-color: lightgrey;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.containerReviews {
+	width: 19.5em;
+    float: left;
+    padding: 1em;
+}
+
+.containerReviewFormat {
+    float:left;
+    width: 939px;
+}
+
+.containerHeading{
+	background-image: url(./images/rottenlargebg.png);
+	color: red;
+    height: 83px;
+    font-size: 53px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.containerHeading img{
+    float: left;
+}
+
+.containerImage {
+	float: right;
+	background-color: RGB(143, 188, 143);
+}
+
+.mainHeading {
+	background-image: url(./images/rancidbannerbg.png);
+}
+
+.secondHeading {
+	text-align: center;
+	text-shadow: 2px 2px gray;
+}
+
+body {
+	background-image: url(./images/moviebg.png);
+}
+
+p img
+{ 
+	vertical-align: top;
+	margin-right: 5px;
+	float: left;
+	
+}
